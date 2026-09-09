@@ -67,6 +67,19 @@ body {
 }
 
 
+.abas-texto{
+    background-color: var(--texto-fundo);
+padding: 40px;
+border-radius: 0 0 48px 48px;
+}
+
+ .aba-conteudo.ativo{
+    displey: block;
+ }
+
+
+
+
 @media screen and(min-width: 768px) {
     .botoes {
         display: flex;
