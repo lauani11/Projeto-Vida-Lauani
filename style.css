@@ -77,8 +77,14 @@ border-radius: 0 0 48px 48px;
     displey: block;
  }
 
+ .aba-conteudo{
+
+    display: none;
+ }
 
 
+
+ 
 
 @media screen and(min-width: 768px) {
     .botoes {
