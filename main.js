@@ -36,3 +36,17 @@ horas %=24;
 return ( dias + " dias " + " horas " + " horas " + " minutos " + " minutos " + " segundos " + " segundos ");
 
 }
+
+function atualizaCronometro(){
+for (let i=0; i < contadores.length; i++){
+    contadores[i].textContent = calculaTempo(tempo[i]);
+
+}
+}
+
+function comecaCronometro (){
+    atualizaCronometro();
+    setInterval(atualizaCronometro, 1000);
+}
+
+comecaCronometro();
